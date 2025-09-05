@@ -1,0 +1,17 @@
+[
+  {
+    "event": "Islamic Seminar",
+    "date": "YYYY-MM-DD",
+    "time": "HH:MM",
+    "message_type": "email",
+    "subject": "UPCOMING EVENT: Seminar",
+    "template": "email_template.txt"
+  },
+  {
+    "event": "Quran Competition",
+    "date": "YYYY-MM-DD",
+    "time": "HH:MM",
+    "message_type": "whatsapp",
+    "template": "whatsapp_template.txt"
+  }
+]
