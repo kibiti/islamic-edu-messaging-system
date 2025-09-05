@@ -2,6 +2,33 @@
 
 A free, beginner-friendly automated messaging system for Islamic institutions to send scheduled emails and WhatsApp messages to contacts imported from CSV.
 
+# Islamic Education Messenger
+
+A simple automated messaging system for Islamic institutions to send emails and WhatsApp messages to contacts.
+
+## Setup
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Create a `config/settings.env` file with your environment variables (use `config/settings.env.example` as a guide).
+4. Place your contacts in `data/contacts.csv`.
+5. Customize the templates in `src/templates/`.
+6. Run `npm start` to start the scheduler.
+
+## Usage
+
+The system will automatically send messages based on the schedule (currently set to 9 AM daily). You can also manually trigger the sending by uncommenting the line in `src/app.js`.
+
+## Environment Variables
+
+See `config/settings.env.example` for required variables.
+
+## Important
+
+- For Gmail, use an App Password, not your regular password.
+- Twilio sandbox number is used for WhatsApp. Replace with your business number when going live.
+
+
 ## Features
 - Import contacts (emails & WhatsApp numbers) from CSV
 - Send emails via SMTP
