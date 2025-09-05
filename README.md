@@ -2,8 +2,6 @@
 
 A free, beginner-friendly automated messaging system for Islamic institutions to send scheduled emails and WhatsApp messages to contacts imported from CSV.
 
-# Islamic Education Messenger
-
 A simple automated messaging system for Islamic institutions to send emails and WhatsApp messages to contacts.
 
 ## Setup
